@@ -1,0 +1,22 @@
+.social-links{
+    display:flex;
+    list-style: none;
+    justify-content:center;
+    width:100%;
+
+    & li:not(:last-child){
+        margin-right:3rem;
+    }
+
+    & a[href^="mailto:"]{
+        color:$white;
+    }
+
+    & a:visited{
+        color:$white;
+    }
+
+    & a:hover{
+        color:$gray;
+    }
+}

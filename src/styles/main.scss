@@ -1,5 +1,12 @@
 @import './abstracts/_variables';
-@import './abstracts/mixins';
+@import './abstracts/_mixins';
 
 @import './base/_base';
 @import './base/_typography';
+
+@import './components/wrapper';
+@import './components/social-links';
+
+@import './layout/header';
+
+@import './pages/home';
