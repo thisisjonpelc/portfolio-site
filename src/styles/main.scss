@@ -3,9 +3,11 @@
 
 @import './base/_base';
 @import './base/_typography';
+@import './base/utilities';
 
 @import './components/wrapper';
 @import './components/social-links';
+@import './components/project';
 
 @import './layout/header';
 

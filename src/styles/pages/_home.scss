@@ -1,9 +1,11 @@
 .about{
     background-color:$black;
     color:white;
-    padding:15rem 25rem 7rem 25rem;
-    display:flex;
-    flex-wrap:wrap;
+    //padding:15rem 22rem 7rem 22rem;
+    //display:flex;
+    //flex-wrap:wrap;
+    padding-top:15rem;
+
 
     @supports(clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)){
         -webkit-clip-path: polygon(0 0, 100% 25vh, 100% 100%, 0 100%);
@@ -66,4 +68,15 @@
         margin-top:3rem;
         width:100%;
     }
+}
+
+.portfolio{
+    padding:7rem 22rem;
+
+    &__project{
+        background-color:lighten($gray, 20%);
+        height:15rem;
+
+    }
+
 }
