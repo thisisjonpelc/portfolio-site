@@ -1,0 +1,18 @@
+.btn{
+    border:1px solid $mainOrange;
+    background-color:$mainOrange;
+    //border-radius:1rem;
+    color:$white;
+    display:inline-block;
+
+    font-size:1.4rem;
+    font-family:Roboto, sans-serif;
+    padding: .5rem 1.5rem;
+
+    text-decoration: none;
+
+    &:hover{
+        color:$mainOrange;
+        background-color:$white;
+    }
+}

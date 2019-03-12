@@ -29,3 +29,12 @@
 .center-text{
     text-align:center !important;
 }
+
+.link{
+
+    &:visited{
+        color:inherit;
+    }
+    
+
+}

@@ -29,4 +29,12 @@
     @if $breakpoint == big-desktop{
         @media only screen and (min-width: 112.5em) { @content}; //1800px
     }
+
+    @if $breakpoint == eight-fifty{
+        @media only screen and (min-width: 53.125em) { @content};//850px
+    }
+
+    @if $breakpoint == twelve-hundred-fifty{
+        @media only screen and (min-width: 78.125em) { @content};//1200px
+    }
 }
