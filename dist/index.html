@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>This is Jon Pelc</title>
 
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
         crossorigin="anonymous">
 
@@ -22,8 +23,8 @@
         <div class='header__heading-box'>
             <h1 class='heading-primary'>
                 <span class='heading-primary--main'>This is Jon Pelc.</span>
-                <span class='heading-primary--sub'>A web developer located in Birmingham, AL with a passion for
-                    creating elegant digital solutions and an undying craving for New York style pizza.</span>
+                <span class='heading-primary--sub'>A web developer in Birmingham, AL with a passion for
+                    creating digital solutions to interactive problems and an undying craving for New York style pizza.</span>
             </h1>
         </div>
     </header>
@@ -36,13 +37,13 @@
                 <div class='flex flex--wrap flex--space-around'>
                     <div class='project'>
                         <div class='project__image'>
-                                <img src='images/addux-squish.png'>
+                            <img src='images/addux-squish.png' alt='screenshot of addux online in action'>
                         </div>
                         <div class='project__text'>
                             <h3 class='project__title center-text'>Addux Online</h3>
-                            <p class='project__description'>A desktop first subscription based web application built to
+                            <p class='project__description'>A desktop focused subscription based web app built to
                                 supplement a proprietary business strategy system developed by <a class='link' href='https://www.cypressresources.com/'>Cypress
-                                    Resources.</a> Features include user authentication system and <a class='link' href='https://stripe.com/docs/api'>Stripe
+                                    Resources</a>. Features include user authentication system and <a class='link' href='https://stripe.com/docs/api'>Stripe
                                     API</a> integration. I was the sole developer of this project and responsible for
                                 implementing the full stack and project deployment.</p>
 
@@ -56,8 +57,8 @@
                     </div>
                     <div class='project'>
                         <div class='project__image'>
-                            <img src='images/country-club-desktop.png'>
-                            <img src='images/country-club-mobile.png'>
+                            <img src='images/country-club-desktop.png' alt='screenshot of country club web site on desktop'>
+                            <img src='images/country-club-mobile.png' alt='screenshot of country club web site on mobile'>
                         </div>
                         <div class='project__text'>
                             <h3 class='project__title center-text'>Country Club Landing Page</h3>
@@ -82,44 +83,43 @@
 
         <section class='about'>
             <div class='wrapper flex flex--wrap'>
-                <img class='about__image' src='images/me.png' alt='Jon Pelc looking like a model on a mountain'>
+                <img class='about__image hide-phone' src='images/me.png' alt='Jon Pelc looking like a model on a mountain'>
                 <div class='about__content'>
-                    <h2 class='heading-secondary heading-secondary--white'>Wait. Who is Jon Pelc?</h2>
+                    <h2 class='heading-secondary heading-secondary--white heading-secondary--opaque'>Wait. Who is Jon
+                        Pelc?</h2>
+                    <img class='about__image about__image--phone' src='images/me.png' alt='Jon Pelc looking like a model on a mountain'>
                     <div class='about__text'>
                         <p>
-                            That's a great question! I'm a web developer who found his way to Birmingham, AL via
+                            I'm that guy in the picture! I'm a web developer who found his way to Birmingham, AL via
                             northern New Jersey, Boston, and then Atlanta.
                         </p>
                         <p>
-                            I have the knowledge and skills to handle both front and back-end web development but
-                            generally
-                            prefer to work on the front end side of things. That's because I love building things that
-                            people can enjoy interacting with. It's what drives me to do the work that I do. Right now
+                            I have the skills to handle both front and back-end web development (predominantly in Javascript) but I get really
+                            excited about working on the front end side of things. That's because I love building
+                            things that
+                            people enjoy interacting with. It's what drives me to do the work that I do. Right now
                             I'm focusing on using React within the
-                            MERN stack but I'm always looking for new tools to add to my repertoire. Suggestions are
-                            always
-                            welcome!
+                            MERN stack but I'm always looking for excuses to add new tools to my repertoire. So if
+                            you've got one let me know!
                         </p>
                         <p>
                             When not coding I like to team up with my girlfriend to spoil our 10 pound Boston Terrier
-                            named
                             Violet,
-                            invest too much time rooting for the Yankees and 49ers (I promise
-                            I wasn't a front-runner as a kid!), playing video games with my friends back up north, and
-                            eating at all the great restaurants in the Birmingham area.
+                            invest too much time rooting for the Yankees and 49ers, playing video games with friends
+                            back up north, and
+                            desperately hunting for thin crust pizza while eating at all the great restaurants in the Birmingham area.
                         </p>
                         <p>
-                            If you want to talk about any of the above or any potential project ideas feel free to get
-                            in
-                            touch with me at any of the links below.
+                            If you're curious about any of the above, have any potential project ideas, or want to hire me feel free to check out my stuff or get
+                            in touch with me via any of the links below.
                         </p>
                     </div>
                 </div>
                 <ul class='social-links'>
-                    <li><a href='mailto:thisisjonpelc@gmail.com'><i class="far fa-envelope fa-3x"></i></a></li>
-                    <li> <a href='https://github.com/thisisjonpelc'><i class="fab fa-github fa-3x"></i></a></li>
-                    <li> <a href='https://www.linkedin.com/in/thisisjonpelc/'><i class="fab fa-linkedin-in fa-3x"></i></a></li>
-                    <li> <a href='https://www.instagram.com/pelcosaur/'><i class="fab fa-instagram fa-3x"></i></a></li>
+                    <li><a class='link' href='mailto:thisisjonpelc@gmail.com'><i class="far fa-envelope fa-3x"></i></a></li>
+                    <li> <a class='link' href='https://github.com/thisisjonpelc'><i class="fab fa-github fa-3x"></i></a></li>
+                    <li> <a class='link' href='https://www.linkedin.com/in/thisisjonpelc/'><i class="fab fa-linkedin-in fa-3x"></i></a></li>
+                    <li> <a class='link' href='https://www.instagram.com/pelcosaur/'><i class="fab fa-instagram fa-3x"></i></a></li>
                 </ul>
                 <p class='about__copyright center-text'>&copy 2019 Jonathan Pelc</p>
             </div>

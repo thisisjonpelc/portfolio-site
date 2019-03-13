@@ -13,3 +13,10 @@
         justify-content: space-around;
     }
 }
+
+.hide-phone{
+
+    @include respond(phone){
+        display:none !important;
+    }
+}
