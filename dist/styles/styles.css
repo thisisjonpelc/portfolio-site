@@ -100,6 +100,12 @@ body {
     align-items: flex-end;
     background-color: #f7f7f7;
     background-color: yellowgreen; }
+    @media only screen and (max-width: 37.5em) {
+      .project__image {
+        height: 175px; } }
+    @media screen and (max-width: 23.125rem) {
+      .project__image {
+        height: 145px; } }
     .project__image img {
       border: 5px solid #000;
       border-radius: 7px;
@@ -110,6 +116,9 @@ body {
       @media only screen and (max-width: 37.5em) {
         .project__image img {
           height: 150px; } }
+      @media screen and (max-width: 23.125rem) {
+        .project__image img {
+          height: 120px; } }
       .project__image img:not(:last-child) {
         margin-right: 4px; }
   .project__text {
@@ -204,7 +213,7 @@ body {
     clear: both; }
   .about__content {
     width: 70%;
-    margin-bottom: 1rem; }
+    margin-bottom: 7rem; }
     @media only screen and (max-width: 56.25em) {
       .about__content {
         width: 55%; } }
@@ -247,3 +256,12 @@ body {
   .portfolio__project {
     background-color: #bbbbbb;
     height: 15rem; }
+
+html.sr .project {
+  visibility: hidden; }
+
+html.sr .about__image {
+  visibility: hidden; }
+
+html.sr .about__text {
+  visibility: hidden; }
