@@ -1,11 +1,15 @@
 .about{
     background-color:$black;
-    background-color:#0E4749;
+    background-color:#122C34;
     color:white;
     //padding:15rem 22rem 7rem 22rem;
     //display:flex;
     //flex-wrap:wrap;
     padding:20rem 0 5rem 0;
+
+    @include respond(tab-port){
+        padding-top:15rem;
+    }
 
 
     @supports(clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)){
@@ -26,7 +30,7 @@
         //align-items: center;
         //flex-wrap:wrap;
         width:70%;
-        margin-bottom:1rem;
+        margin-bottom:7rem;
 
         @include respond(tab-port){
             width:55%;
@@ -34,6 +38,12 @@
 
         @include respond(phone){
             width:100%;
+        }
+
+        & h2{
+            @include respond(phone){
+                text-align: center;
+            }
         }
     }
 

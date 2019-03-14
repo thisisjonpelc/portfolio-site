@@ -14,9 +14,9 @@
         width: 47%;
     }
 
-    @include respond(twelve-hundred-fifty){
-        width:32%;
-    }
+    // @include respond(twelve-hundred-fifty){
+    //     width:32%;
+    // }
 
     // @include respond(tab-land){
     //     width:47%;
@@ -39,12 +39,30 @@
         background-color:$lightGray;
         background-color:yellowgreen;
 
+        @include respond(phone){
+            height:175px;
+        }
+
+        @media screen and (max-width:23.125rem){
+            height:145px;
+        }
+
         & img{
             border:5px solid $black;
             border-radius:7px;
             border-bottom:0;
             border-bottom-left-radius: 0;
             border-bottom-right-radius: 0;
+
+            height:175px;
+
+            @include respond(phone){
+                height:150px;
+            }
+
+            @media screen and (max-width:23.125rem){
+                height:120px;
+            }
 
             &:not(:last-child){
                 margin-right:4px;

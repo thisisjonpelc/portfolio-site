@@ -5,12 +5,12 @@
     margin-bottom:2.5rem;
 
     &--main{
-        font-size:6.5rem;
+        font-size:8rem;
         display:block;
         
-        // @include respond(phone){
-        //     font-size:6rem;
-        // }
+        @include respond(phone){
+            font-size:6.5rem;
+        }
     } 
 
     &--sub{

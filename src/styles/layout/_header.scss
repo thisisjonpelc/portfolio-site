@@ -15,6 +15,12 @@
 
     &__heading-box{
         @include absoluteCenter;
+
+        transform:translate(-70%, -50%);
+    
+        @include respond(phone){
+            transform:translate(-50%, -50%);
+        }
     }
 
     &__heading{
