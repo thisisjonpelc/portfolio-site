@@ -1,6 +1,7 @@
 .about{
     background-color:$black;
     background-color:#122C34;
+    background-color:#00074F;
     color:white;
     //padding:15rem 22rem 7rem 22rem;
     //display:flex;
@@ -72,7 +73,8 @@
     &__text{
         //width:75%;
         font-size:1.6rem;
-        font-family:Poppins, serif;
+        //font-family:Poppins, serif;
+        font-family:Roboto, serif;
 
         & p{
             margin-bottom:2rem;
